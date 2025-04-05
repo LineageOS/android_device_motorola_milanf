@@ -24,6 +24,7 @@ $(call inherit-product, device/motorola/sm6375-common/common.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
+    LineagePlatformDevice \
     LineageApertureAppDevice \
     SystemUIResDevice \
     WifiResDevice
@@ -50,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.mmi.overlay.rc \
     init.oem.fingerprint2.sh
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.lineage
 
 # NFC
 PRODUCT_PACKAGES += \
