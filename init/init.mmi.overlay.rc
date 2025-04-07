@@ -34,6 +34,8 @@ on post-fs-data
     chmod 0660 /sys/class/touchscreen/primary/first_filter
     chown system system /sys/class/touchscreen/primary/edge
     chmod 0660 /sys/class/touchscreen/primary/edge
+    chown system system /sys/class/touchscreen/primary/gesture
+    chmod 0660 /sys/class/touchscreen/primary/gesture
 
     # change permission for stylus
     chown system system /sys/class/touchscreen/primary/palm_settings
