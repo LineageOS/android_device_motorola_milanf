@@ -13,7 +13,7 @@
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>30</item>
+        <item>50</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback when selecting an hour/minute tick of a Clock -->
@@ -67,16 +67,29 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
         <item>2</item>
-        <item>4</item>
         <item>5</item>
         <item>10</item>
-        <item>40</item>
+        <item>29</item>
+        <item>50</item>
+        <item>90</item>
         <item>100</item>
-        <item>325</item>
-        <item>1250</item>
-        <item>3500</item>
-        <item>5500</item>
+        <item>150</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1300</item>
+        <item>1500</item>
+        <item>1600</item>
+        <item>1800</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>8000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -92,17 +105,30 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessDisplayValuesNits">
-        <item>2</item>
-        <item>7</item>
+        <item>3</item>
         <item>10</item>
-        <item>12</item>
-        <item>24</item>
-        <item>95</item>
-        <item>111</item>
-        <item>149</item>
-        <item>192</item>
-        <item>252</item>
-        <item>500</item>
+        <item>20</item>
+        <item>50</item>
+        <item>70</item>
+        <item>85</item>
+        <item>110</item>
+        <item>130</item>
+        <item>150</item>
+        <item>180</item>
+        <item>180</item>
+        <item>180</item>
+        <item>180</item>
+        <item>202</item>
+        <item>202</item>
+        <item>202</item>
+        <item>202</item>
+        <item>202</item>
+        <item>350</item>
+        <item>380</item>
+        <item>420</item>
+        <item>450</item>
+        <item>450</item>
+        <item>450</item>
     </integer-array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -111,16 +137,20 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
-        <item>1</item>
-        <item>4</item>
-        <item>5</item>
+        <item>3</item>
         <item>6</item>
-        <item>12</item>
+        <item>11</item>
+        <item>28</item>
+        <item>40</item>
         <item>48</item>
-        <item>57</item>
-        <item>76</item>
-        <item>98</item>
-        <item>129</item>
+        <item>62</item>
+        <item>74</item>
+        <item>85</item>
+        <item>102</item>
+        <item>118</item>
+        <item>198</item>
+        <item>215</item>
+        <item>238</item>
         <item>255</item>
     </integer-array>
 
@@ -133,17 +163,21 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <integer-array name="config_screenBrightnessNits">
         <item>0</item>
-        <item>2</item>
-        <item>7</item>
+        <item>3</item>
         <item>10</item>
-        <item>12</item>
-        <item>24</item>
-        <item>95</item>
-        <item>111</item>
-        <item>149</item>
-        <item>192</item>
-        <item>252</item>
-        <item>500</item>
+        <item>20</item>
+        <item>50</item>
+        <item>70</item>
+        <item>85</item>
+        <item>110</item>
+        <item>130</item>
+        <item>150</item>
+        <item>180</item>
+        <item>202</item>
+        <item>350</item>
+        <item>380</item>
+        <item>420</item>
+        <item>450</item>
     </integer-array>
 
     <!-- MMS user agent string -->
@@ -154,15 +188,6 @@
 
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
     <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineageos.sensor.double_tap</string>
-
-    <!-- Control whether the always on display mode is available. This should only be enabled on
-         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
-         states. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-
-    <!-- Control whether the always on display mode is enabled by default. This value will be used
-         during initialization when the setting is still null. -->
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
@@ -189,10 +214,10 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout" translatable="false">
-        M -34,0
-        L -34,100
-        L 34,100
-        L 34,0
+        M -50,0
+        L 50,0
+        L 50,115
+        L -50,115
         Z
     </string>
 
@@ -212,10 +237,10 @@
     </array>
 
     <array name="config_sfps_sensor_props_0" translatable="false">
-        <item>local:4630947043778501761</item> <!--item>displayId</item-->
+        <item>local:4630946747577212033</item> <!--item>displayId</item-->
         <item>1080</item> <!--item>sensorLocationX</item-->
-        <item>815</item> <!--item>sensorLocationY</item-->
-        <item>200</item> <!--item>sensorRadius</item-->
+        <item>835</item> <!--item>sensorLocationY</item-->
+        <item>230</item> <!--item>sensorRadius</item-->
     </array>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
@@ -236,20 +261,6 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
-
-    <!-- Low zone brightness thresholds in the range [0, 255] -->
-    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate" translatable="false">
-        <item>72</item>
-    </integer-array>
-
-    <!-- Low zone lux thresholds -->
-    <integer-array name="config_ambientThresholdsOfPeakRefreshRate" translatable="false">
-        <item>-1</item>
-    </integer-array>
-
-    <!-- Default refresh rate in the zone defined by brightness and ambient thresholds.
-         If non-positive, then the refresh rate is unchanged even if thresholds are configured. -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
 
     <!-- Whether this device is supporting the software microphone toggle -->
     <bool name="config_supportsMicToggle">true</bool>
