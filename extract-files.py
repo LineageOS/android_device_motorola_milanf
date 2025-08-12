@@ -20,7 +20,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/motorola/rhodep',
+    'device/motorola/milanf',
     'hardware/motorola',
     'vendor/motorola/sm6375-common',
     'vendor/qcom/opensource/display',
@@ -52,7 +52,7 @@ extract_fns: extract_fns_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'rhodep',
+    'milanf',
     'motorola',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
