@@ -4,7 +4,7 @@
 #
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_HEIGHT := 2460
 TARGET_SCREEN_WIDTH := 1080
 
 # Screen
@@ -77,7 +77,7 @@ $(foreach DEVICE_SKU, $(DEVICE_SKUS), \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.rhodep
+    sensors.milanf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
@@ -86,4 +86,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/rhodep/rhodep-vendor.mk)
+$(call inherit-product, vendor/motorola/milanf/milanf-vendor.mk)
