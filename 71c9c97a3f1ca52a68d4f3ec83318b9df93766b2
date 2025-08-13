@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c7d6d3b_7d613776",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2025-08-13T23:55:44Z",
+      "side": 1,
+      "message": "Genuine question : shouldn\u0027t this be set to the board\u0027s codename (blair for sm6375 if I\u0027m not wrong) instead of the device\u0027s codename ?",
+      "range": {
+        "startLine": 15,
+        "startChar": 32,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "71c9c97a3f1ca52a68d4f3ec83318b9df93766b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
