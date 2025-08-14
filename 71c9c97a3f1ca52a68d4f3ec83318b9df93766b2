@@ -22,6 +22,30 @@
       },
       "revId": "71c9c97a3f1ca52a68d4f3ec83318b9df93766b2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cf099fb_27af1093",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2025-08-14T02:33:10Z",
+      "side": 1,
+      "message": "No, common tree inherits the common configs for these devices.\n\nhttps://github.com/LineageOS/android_device_motorola_sm6375-common/blob/2b28552357943d3faaad11fd70a608e2bcf5fcc6/BoardConfigCommon.mk#L50",
+      "parentUuid": "2c7d6d3b_7d613776",
+      "range": {
+        "startLine": 15,
+        "startChar": 32,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "71c9c97a3f1ca52a68d4f3ec83318b9df93766b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
