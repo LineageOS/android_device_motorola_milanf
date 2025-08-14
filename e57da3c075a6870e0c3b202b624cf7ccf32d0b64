@@ -16,6 +16,24 @@
       "message": "```suggestion\ncw2217b_fg_mmi.ko\n```",
       "revId": "e57da3c075a6870e0c3b202b624cf7ccf32d0b64",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "296a7c9a_933a886d",
+        "filename": "modules.load.recovery",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2025-08-14T07:14:35Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "59130509_96c332f6",
+      "revId": "e57da3c075a6870e0c3b202b624cf7ccf32d0b64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
