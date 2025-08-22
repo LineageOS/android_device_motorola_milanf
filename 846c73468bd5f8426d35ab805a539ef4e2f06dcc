@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7bf4372_037550fc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 221,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-22T14:55:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff656856_9f2af0e0",
+      "range": {
+        "startLine": 219,
+        "startChar": 0,
+        "endLine": 221,
+        "endChar": 66
+      },
+      "revId": "846c73468bd5f8426d35ab805a539ef4e2f06dcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b65d1596_f09cc3e5",
@@ -47,6 +71,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c844f080_f42bdf26",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-22T14:55:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b65d1596_f09cc3e5",
+      "range": {
+        "startLine": 236,
+        "startChar": 0,
+        "endLine": 237,
+        "endChar": 50
+      },
+      "revId": "846c73468bd5f8426d35ab805a539ef4e2f06dcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e1d67306_99d38e77",
@@ -60,6 +108,24 @@
       "writtenOn": "2025-08-22T14:01:33Z",
       "side": 1,
       "message": "Move this to # NFC firmware section",
+      "revId": "846c73468bd5f8426d35ab805a539ef4e2f06dcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "825e4840_ca7f5fd1",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-22T14:55:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1d67306_99d38e77",
       "revId": "846c73468bd5f8426d35ab805a539ef4e2f06dcc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
