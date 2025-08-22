@@ -46,6 +46,30 @@
       },
       "revId": "71c9c97a3f1ca52a68d4f3ec83318b9df93766b2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b57ebcb7_1f2d9158",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-08-22T13:52:49Z",
+      "side": 1,
+      "message": "TARGET_BOOTLOADER_BOARD_NAME is set to the name that the bootloader reports. On motorola devices, the bootloader properly reports the device name as the board name.",
+      "parentUuid": "7cf099fb_27af1093",
+      "range": {
+        "startLine": 15,
+        "startChar": 32,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "71c9c97a3f1ca52a68d4f3ec83318b9df93766b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
