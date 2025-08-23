@@ -22,6 +22,30 @@
       },
       "revId": "70f05a59c01ce142ca00107b8809f9a3ed44de1e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f486ef91_534f2394",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2025-08-23T04:24:43Z",
+      "side": 1,
+      "message": "Resolved in PS2",
+      "parentUuid": "1e48fdf7_4cb8fb43",
+      "range": {
+        "startLine": 54,
+        "startChar": 42,
+        "endLine": 54,
+        "endChar": 69
+      },
+      "revId": "70f05a59c01ce142ca00107b8809f9a3ed44de1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
