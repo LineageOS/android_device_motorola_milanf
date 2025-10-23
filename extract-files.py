@@ -22,6 +22,7 @@ from extract_utils.main import (
 namespace_imports = [
     'device/motorola/milanf',
     'hardware/motorola',
+    'hardware/qcom-caf/common/libqti-perfd-client',
     'vendor/motorola/sm6375-common',
     'vendor/qcom/opensource/display',
 ]
