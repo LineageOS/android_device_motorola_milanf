@@ -59,6 +59,9 @@ PRODUCT_PACKAGES += \
 # LiveDisplay
 $(call soong_config_set,livedisplay_sysfs,enable_ab,true)
 
+# Lineage Health
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/device/force_charging_disable)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
