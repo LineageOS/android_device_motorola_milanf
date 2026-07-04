@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3d5aa84_2bf84539",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-07-04T21:48:52Z",
+      "side": 1,
+      "message": "Booted, and haven\u0027t observed any issues. Stylus/Touch/d2tw/NFC all work as intended.",
+      "revId": "dd97fc272161d05f32c90ff2debb11a5e3f102ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
